@@ -1,0 +1,116 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    background-color: gray;
+}
+
+h1{
+    color: lavender;
+    text-align: center;
+}
+
+.destaque {
+    background-color: greenyellow;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    border: 5px solid black;
+    margin: 20px, 10px, 5px, 15px;
+}
+
+p.destaquet{
+    width: 70%;
+    height: 10vh;
+    background-color: blue;
+}
+
+#info{
+    text-align: center;
+    background-color: palevioletred;
+    font-weight: bold;
+    padding: 20px, 10px, 5px, 30px;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+}
+
+div.center {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}
+
+h1, h2, h3{
+    background-color: salmon;
+}
+
+a:link{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: rgb(236, 0, 165);
+}
+
+a{
+    color: white;
+}
+
+a:active{
+    background-color: purple;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:hover{
+    background-color: cadetblue;
+    color: darkgoldenrod;
+}
+
+.padrao{
+    border: 1px solid black;
+}
+
+.relative{
+    border: 1px solid black;
+    position: relative;
+    top: -10px;
+    left: 10%;
+}
+
+.absolute{
+    border: 1px solid black;
+    position: absolute;
+    top: 12.1%;
+} 
+
+.fixed{
+    position: fixed;
+    top: 4%;
+    border: 1px solid silver;
+    background-color: blue;
+}
+
+.left{
+    float: left;
+    width: 300px;
+    background-color: cornflowerblue;
+}
+
+.main {
+    background-color: rgb(21, 114, 36);
+}
+
