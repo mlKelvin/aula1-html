@@ -1,18 +1,17 @@
+/* menu - begin */
+.barraMenu{
+    height: 37px;
+    background-color: rgb(179, 179, 179);
+}
+
 .divFloatLeft{
    float: left;
    padding-left: 10px;
+   padding-top: 10px;
 }
 
-.divFloatLeftImg{
-    float: left;
-}
-
-.MenuAlignToMid{
+.menuAlignToMid{
     margin-left: 40%;
-}
-
-.DadosAlignToMid{
-    margin-left: 30%;
 }
 
 a{
@@ -28,10 +27,18 @@ a:link{
 a:hover{
     background-color: #959595;
 }
+/* menu - end */
 
-.marginTextDados{
-    text-align: left;
-    margin: auto;
-    padding-left: 50px;
-    border: 1px solid black;
+/* curriculo - begin */
+.imgAlignLeft{
+    padding-left: 31.5%;
+    float: left;
 }
+
+.textAlignToImg{
+    padding-right: 29%;
+}
+/* dados curriculo - end */
+
+
+
