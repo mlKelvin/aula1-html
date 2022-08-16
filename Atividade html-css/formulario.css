@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+
+a{
+    color: black;
+    border: 2px solid black;
+}
+
+a:link{
+    text-decoration: none;
+    background-color: #DEDEDE;
+}
+
+a:hover{
+    background-color: #959595;
+}
+
+div{
+    padding-top: 20px;
+}

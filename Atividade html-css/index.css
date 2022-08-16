@@ -1,6 +1,9 @@
+body{
+    margin: 0px;
+}
 /* menu - begin */
 .barraMenu{
-    height: 37px;
+    height: 40px;
     background-color: rgb(179, 179, 179);
 }
 
@@ -8,10 +11,11 @@
    float: left;
    padding-left: 10px;
    padding-top: 10px;
+   font-size: large; 
 }
 
 .menuAlignToMid{
-    margin-left: 40%;
+    margin-left: 42%;
 }
 
 a{
@@ -31,7 +35,7 @@ a:hover{
 
 /* curriculo - begin */
 .imgAlignLeft{
-    padding-left: 31.5%;
+    padding-left: 34%;
     float: left;
 }
 
@@ -40,5 +44,27 @@ a:hover{
 }
 /* dados curriculo - end */
 
+/* redes sociais - begin */
+.leftInstagram{
+    float: left;
+    padding-left: 38%;
+    font-size: x-large; 
+}
 
+.rightEndereco{
+    float: left;
+    padding-left: 5%;
+    font-size: x-large; 
+}
 
+.alignOutrosDados{
+    font-size: x-large;
+    padding-left: 58%; 
+}
+/* redes sociais - end */
+
+/* tabelas - begin */
+.tableAlignCenter{
+    padding-left: 46.5%;
+}
+/* tabelas - end */
